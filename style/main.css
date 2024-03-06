@@ -26,7 +26,6 @@ header .container{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 3%;
 }
 header a{
     text-decoration: none;
@@ -54,4 +53,40 @@ header a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.botoes{
+    padding-top: 20px;
+}
+
+.botao{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    padding: 15px 30px;
+
+    cursor:pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color:black;
+
+}
+.botao i{
+margin-right: 5px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.container{
+padding: 20px;
+}
+
+.titulo{
+    font-size: 40px;
+    padding-bottom: 20px;
 }
