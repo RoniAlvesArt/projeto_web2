@@ -48,7 +48,7 @@ header a:hover{
 .filme-principal{
     font-size: 16px;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/cover.jpg');
-    height: 400px;
+    height: 500px;
     background-size: cover;
     display: flex;
     flex-direction: column;
