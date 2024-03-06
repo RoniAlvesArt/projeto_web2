@@ -1,0 +1,44 @@
+/*Criando as variáveis "painel de controle"*/
+:root{
+    --tcolor:#AAA;
+    --bgcolor:#000000;
+    --btncolor:grey;
+    --logocolor:purple;
+    --thcolor:#ffffff;
+}
+
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*limita o tamanho da caixa, caso seus elementos forcem aumento de tamanho*/
+}
+
+body{
+    background-color: var(--bgcolor);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--tcolor);
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3%;
+}
+header a{
+    text-decoration: none;
+    color:var(--tcolor);
+    text-transform: uppercase;
+    font-size: small;
+    margin-left: 5px;    
+}
+
+header .logo{
+    color:var(--logocolor)
+}
+
+header a:hover{
+    color:var(--thcolor);
+}
