@@ -1,6 +1,27 @@
-@media screen and (max-width:700px)  {
-    header .container{
+@media screen and (max-width:700px) {
+
+    header .container {
         display: flex;
         flex-direction: column;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    header .logo {
+        font-size: 3em;
+    }
+
+    .filme-principal .container {
+        width: 95%;
+    }
+
+    .filme-principal {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/cover01.webp');
+        background-size: cover;
+        background-position: center;
+        transition: ease-in-out 0.3s;
+        height: 600px;
     }
 }
